@@ -1,4 +1,3 @@
-package testPackageOne;
 
 public class EditDistance {
 	
