@@ -21,7 +21,10 @@ public class EditDistance {
 		
 	}
 	
-	
+	/* 
+		Time Complexity: O(m x n)
+		Auxiliary Space: O(m x n)
+	*/
 	public static int findDistanceTempArray(String s1, String s2, int m , int n){
 		
 		int[][] li = new int[m+1][n+1];
