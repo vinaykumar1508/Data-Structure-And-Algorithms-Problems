@@ -1,7 +1,10 @@
 package testPackageOne;
 
 public class EditDistance {
-
+	
+	/* 
+		Time Complexity: O(3^m)
+	*/
 	public static int findDistance(String s1, String s2, int m, int n){
 		//System.out.println("s1:"+s1+":s2:"+s2);
 		if(m==0) return n; // base case when first string is null then to make first string equal to second need to insert all chars of second string which will take n iterations.
